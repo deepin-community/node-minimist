@@ -1,0 +1,17 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s%(?:.*?/)?v?@ANY_VERSION@(@ARCHIVE_EXT@)%@PACKAGE@-$1$2% \
+https://github.com/substack/minimist/tags (?:.*?/)?v?@ANY_VERSION@@ARCHIVE_EXT@ group
+
+# It is not recommended use npmregistry. Please investigate more.
+# Take a look at https://wiki.debian.org/debian/watch/
+opts="searchmode=plain,ctype=nodejs,component=types-minimist,pgpmode=none" \
+ https://registry.npmjs.org/@types/minimist https://registry.npmjs.org/@types/minimist/-/minimist-@ANY_VERSION@@ARCHIVE_EXT@ checksum
+
+opts=\
+ctype=nodejs,\
+component=minimist-options,\
+dversionmangle=auto,\
+filenamemangle=s%(?:.*?/)?v?@ANY_VERSION@(@ARCHIVE_EXT@)%node-minimist-options-$1$2% \
+ https://github.com/vadimdemedes/minimist-options/tags (?:.*?/)?v?@ANY_VERSION@@ARCHIVE_EXT@ checksum
