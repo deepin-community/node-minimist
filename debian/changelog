@@ -1,3 +1,28 @@
+node-minimist (1.2.7+~cs5.3.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Authorize __proto__ call during autopkgtest: test verifies prototype pollution
+
+ -- Yadd <yadd@debian.org>  Mon, 31 Oct 2022 09:30:36 +0100
+
+node-minimist (1.2.7+~cs5.3.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.6.1
+  * Update homepage
+  * New upstream version 1.2.7+~cs5.3.2
+  * Drop patch
+
+ -- Yadd <yadd@debian.org>  Mon, 31 Oct 2022 06:48:08 +0100
+
+node-minimist (1.2.6+~cs5.3.2-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.2.6+~cs5.3.2 (Closes: CVE-2021-44906)
+  * Fix test for tap >= 15 (--no-cov)
+
+ -- Yadd <yadd@debian.org>  Wed, 23 Mar 2022 12:24:39 +0100
+
 node-minimist (1.2.5+~cs5.3.2-1) unstable; urgency=medium
 
   * Team upload
