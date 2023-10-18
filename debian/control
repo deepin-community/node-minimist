@@ -10,10 +10,10 @@ Build-Depends: debhelper-compat (= 13)
  , node-kind-of <!nocheck>
  , node-tap <!nocheck>
  , node-tape <!nocheck>
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-minimist
 Vcs-Git: https://salsa.debian.org/js-team/node-minimist.git
-Homepage: https://github.com/substack/minimist
+Homepage: https://github.com/minimistjs/minimist
 Testsuite: autopkgtest-pkg-nodejs
 Rules-Requires-Root: no
 

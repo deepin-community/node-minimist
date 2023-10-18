@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: minimist
 Upstream-Contact: James Halliday <mail@substack.net>
-Source: https://github.com/substack/minimist
+Source: https://github.com/minimistjs/minimist
  https://registry.npmjs.org/@types/minimist
  https://github.com/vadimdemedes/minimist-options/tags
 
